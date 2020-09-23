@@ -1,0 +1,69 @@
+[Root]
+Most Recent Package=AdvTextBoxDep
+
+
+[Package|AdvTextBoxDep|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=D:\Projects\AdvTextBox\Release
+Controls Design-Time Support=Yes
+
+[Package|AdvTextBoxDep|Configure DAO ISAMs]
+Applicable=No
+
+[Package|AdvTextBoxDep|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|AdvTextBoxDep|Files Found]
+
+[Package|AdvTextBoxDep|Files Released]
+
+[Package|AdvTextBoxDep|Missing Dependency Information]
+
+[Package|AdvTextBoxDep|Out-of-Date Dependency Information]
+
+[Package|AdvTextBoxDep|Files Added]
+C:\WINDOWS\SYSTEM\MsStkPrp.dll=This file is needed for usercontrol design-time support.
+
+[Package|AdvTextBoxDep|Files Removed]
+
+[Package|AdvTextBoxDep|Files In Project]
+D:\Projects\AdvTextBox\Release\AdvTextBox.ocx=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=Yes
+
+[Package|AdvTextBoxDep|Configure Registry Files]
+Applicable=
+
+[Package|AdvTextBoxDep|Configure Remote Servers]
+Applicable=
+
+[Package|AdvTextBoxDep|Install Locations]
+D:\Projects\AdvTextBox\Release\AdvTextBox.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=$(WinSysPath)
+
+[Package|AdvTextBoxDep|Configure Shared Files]
+Applicable=
+
+[Package|AdvTextBoxDep|DepFile]
+DepCabFile=AdvTextBox.CAB
+DepCabRun=AdvTextBox.INF
+
+[Package|AdvTextBoxDep|Package]
+PackageFolder=D:\Projects\AdvTextBox\Release
+ProjectFolder=D:\Projects\AdvTextBox
+ServerSideCab=
+File1=D:\Projects\AdvTextBox\Release\AdvTextBox.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
